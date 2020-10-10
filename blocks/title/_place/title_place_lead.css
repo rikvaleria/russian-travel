@@ -3,12 +3,11 @@
     width: 720px;
     min-height: 200px;
 
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     /* or 104% */
-
     text-align: center;
 }

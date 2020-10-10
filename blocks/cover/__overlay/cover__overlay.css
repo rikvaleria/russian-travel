@@ -2,12 +2,12 @@
     width: 1184px;
     min-height: 740px;
     border: #2A2C2F solid 4px;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(42,44,47, .3);
     box-sizing: border-box;
 }
 
 .cover__overlay:hover {
-    background: rgba(0, 0, 0, .8);
+    background-color: rgba(42,44,47, .8);
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover__overlay {

@@ -1,7 +1,7 @@
 .footer__copyright {
 
     width: 186px;
-    height: 16px;
+    min-height: 16px;
     color: white;
     margin: 0;
 
