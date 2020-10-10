@@ -1,0 +1,10 @@
+.header__lang-links {
+    width: 78px;
+    min-height: 28px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

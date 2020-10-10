@@ -1,9 +1,7 @@
 .header__lang-link {
-    display: flex;
-    flex-direction: row;
     color: white;
-    list-style: none;
     margin-left: 18px;
+    padding-bottom: 6px;
     text-decoration-line: none;
     min-height: 28px;
     min-width: 30px;
@@ -19,6 +17,7 @@
 
 .header__lang-link:hover {
     opacity: .3;
+    text-decoration-line: underline;
 }
 
 .header__lang-link_active {
