@@ -1,0 +1,17 @@
+.subtitle_place_cover {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: center;
+
+    max-width: 360px;
+    min-height: 66px;
+    margin: 0 auto;
+}
+.subtitle_place_cover:hover {
+    opacity: 0.5;
+}

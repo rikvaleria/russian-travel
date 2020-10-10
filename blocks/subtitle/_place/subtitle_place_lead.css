@@ -1,0 +1,14 @@
+.subtitle_place_lead {
+    max-width: 640px;
+    min-height: 72px;
+    margin: 0 auto 64px;
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+
+    text-align: center;
+}

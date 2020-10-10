@@ -1,0 +1,5 @@
+.place__left-column {
+    max-width: 460px;
+    margin-right: 40px;
+    border: white dashed 4px;
+}

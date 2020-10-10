@@ -1,0 +1,18 @@
+.header__lang-link {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style: none;
+    margin-left: 18px;
+    text-decoration-line: none;
+    height: 28px;
+    min-width: 30px;
+}
+
+.header__lang-link:hover {
+    opacity: .3;
+}
+
+.header__lang-link_active {
+    text-decoration-line: underline;
+}

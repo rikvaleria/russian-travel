@@ -1,0 +1,13 @@
+.place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 456px;
+    min-height: 46px;
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+
+.place__website_top {
+    margin-top: 106px;
+}

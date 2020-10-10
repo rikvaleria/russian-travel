@@ -1,0 +1,10 @@
+.cover__overlay {
+    width: 1184px;
+    min-height: 740px;
+    border: pink solid 4px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.cover__overlay:hover {
+    background: rgba(0, 0, 0, .8);
+}

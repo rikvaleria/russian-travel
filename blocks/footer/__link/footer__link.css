@@ -1,0 +1,13 @@
+.footer__link {
+    min-width: 50px;
+    min-height: 18px;
+    color: white;
+    list-style: none;
+    text-decoration-line: none;
+    margin: 0;
+    margin-right: 18px;
+    /*border: pink solid 3px;*/
+}
+.footer__link:last-child {
+    margin-right: 0;
+}

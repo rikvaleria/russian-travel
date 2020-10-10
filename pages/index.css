@@ -1,0 +1,354 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/inter.css");
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .header {
+        width: 928px;
+        min-height: 52px;
+        padding: 28px 48px 0;
+        margin: 0;
+    }
+    .lead{
+        width: 928px;
+        height: 962px;
+        margin: 48px 48px 0;
+    }
+    .lead__image {
+        width: 928px;
+        min-height: 580px;
+        background-size: contain;
+    }
+    .intro{
+        width: 690px;
+        min-height: 429px;
+        margin: 92px 48px;
+    }
+    .photo-grid {
+        width: 928px;
+        min-height: 942px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin: 92px 48px;
+    }
+    .places {
+        width: 928px;
+        min-height: 3292px;
+        margin: 0 48px;
+    }
+    .place {
+        max-height: 640px;
+    }
+    .place__left-column {
+        max-width: 440px;
+        margin-right: 32px;
+    }
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+    .place__left-column {
+        width: 456px;
+    }
+
+    .cover {
+         width: 1024px;
+         min-height: 640px;
+        margin: 0;
+    }
+    .cover__overlay {
+        margin: 0;
+        width: 1024px;
+        min-height: 640px;
+    }
+    .title_place_cover {
+        margin: 195px 232px 32px;
+    }
+    .footer {
+        width: 928px;
+        min-height: 18px;
+        padding: 92px 48px 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page {
+        background-color: #2A2C2F;
+
+    }
+    .header {
+        width: 720px;
+        min-height: 52px;
+        padding: 28px 24px 0;
+        margin: 0;
+    }
+    .lead{
+        width: 768px;
+        min-height: 862px;
+        margin: 48px 0 0;
+    }
+    .lead__image {
+        width: 768px;
+        max-height: 480px;
+        background-size: contain;
+    }
+    .intro{
+        width: 720px;
+        min-height: 429px;
+        margin: 88px auto;
+    }
+    .photo-grid {
+        width: 720px;
+        min-height: 1664px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        margin: 24px auto;
+    }
+    .places {
+        width: 720px;
+        min-height: 2700px;
+        margin: 88px 24px;
+    }
+    .place {
+        min-height: 434px;
+    }
+    .place__left-column {
+        max-width: 582px;
+        margin-right: 28px;
+    }
+    .title_place_place{
+        font-size: 42px;
+        line-height: 46px;
+        width: 340px;
+        max-height: 92px;
+    }
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+    .place__right-column {
+        max-width: 352px;
+    }
+    .place__website {
+        margin-bottom: 48px;
+        margin-top: 0;
+    }
+    .place__website_top {
+        margin-bottom: 48px;
+        margin-top: 0;
+    }
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+        width: 352px;
+        max-height: 183px;
+    }
+    .cover {
+        margin: 0;
+        width: 768px;
+        min-height: 480px;
+    }
+    .cover__overlay {
+        margin: 0;
+        width: 768px;
+        min-height: 480px;
+    }
+    .title_place_cover {
+        margin: 115px 104px 32px;
+    }
+    .footer {
+        width: 720px;
+        min-height: 18px;
+        padding: 88px 24px 24px;
+    }
+}
+
+/*@media screen and (min-width: 560px) and (max-width: 767px) {
+   .header {
+       width: 560px;
+   }
+    .lead{
+        width: 560px;
+    }
+    .intro{
+        width: 560px;
+    }
+    .photo-grid {
+        width: 560px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+    .place {
+        width: 560px;
+    }
+
+    .cover {
+        width: 560px;
+        min-height: 350px;
+    }
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 559px) {
+    .header {
+        width: 288px;
+        min-height: 42px;
+        padding: 16px 16px 48px;
+    }
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+    .lead {
+        width: 320px;
+        min-height: 406px;
+        margin: 0 2px;
+    }
+    .title_place_lead {
+        width: 288px;
+        min-height: 88px;
+        font-size: 40px;
+        line-height: 44px;
+        margin: 48px 16px 16px;
+    }
+    .subtitle_place_lead {
+        font-size: 16px;
+        line-height: 20px;
+        width: 288px;
+        min-height: 40px;
+    }
+    .lead__image {
+        width: 320px;
+        max-height: 200px;
+        background-size: contain;
+    }
+    .intro {
+        width: 288px;
+        min-height: 754px;
+        margin: 64px 16px;
+    }
+    .title_place_intro {
+        margin: 0;
+    }
+    .subtitle_place_intro {
+        width: 288px;
+        min-height: 522px;
+    }
+    .intro__text {
+
+    }
+    .intro__box-list {
+        width: 288px;
+        min-height: 90px;
+    }
+    .intro__list {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .photo-grid {
+        width: 288px;
+        min-height: 2724px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        margin: 64px 16px;
+    }
+    .places {
+        width: 320px;
+        min-height: 4786px;
+        margin: 0;
+    }
+    .place {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        min-height: 965px;
+        margin: 0;
+    }
+    .place__left-column {
+        width: 320px;
+        margin: 0;
+    }
+    .title_place_place{
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+        max-height: 35px;
+    }
+    .place__image {
+        width: 96%;
+        height: 320px;
+        margin-top: 32px;
+    }
+    .place__right-column {
+        max-width: 320px;
+        margin: 0 16px 48px;
+    }
+    /* Я скрыла ссылки на этом разрешении, но остаётся воздух. Непонятно что с ним делать. */
+    .place__website {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    .place__website_top {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+        width: 288px;
+        min-height: 157px;
+        margin-bottom: 24px;
+    }
+    .cover {
+        margin: 0;
+        width: 320px;
+        min-height: 200px;
+    }
+    .cover__overlay {
+        margin: 0;
+        width: 320px;
+        min-height: 200px;
+    }
+    .title_place_cover {
+        font-size: 32px;
+        line-height: 35px;
+        margin: 33px 16px 18px;
+        width: 288px;
+        min-height: 70px;
+    }
+    .subtitle_place_cover {
+        font-size: 14px;
+        line-height: 16px;
+        width: 288px;
+        min-height: 48px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 186px;
+        max-height: 310px;
+        padding: 64px 118px 24px 16px;
+    }
+    .footer__box {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer__link {
+        min-width: 74px;
+        max-height: 74px;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0;
+        padding-bottom: 32px;
+    }
+    .footer__copyright {
+        padding-top: 48px;
+    }
+}
