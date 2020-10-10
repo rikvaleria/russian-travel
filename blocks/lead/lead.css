@@ -8,3 +8,10 @@
 
    /* border: white solid 4px;*/
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead{
+        width: 928px;
+        height: 962px;
+        margin: 48px 48px 0;
+    }
+}

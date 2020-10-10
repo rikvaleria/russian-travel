@@ -16,3 +16,8 @@
 .title_place_cover:hover {
     opacity: 0.5;
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .title_place_cover {
+        margin: 195px 232px 32px;
+    }
+}

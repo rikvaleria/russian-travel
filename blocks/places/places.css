@@ -4,3 +4,10 @@
     margin: 92px auto;
   /*  border: aliceblue solid 5px;*/
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        width: 928px;
+        min-height: 3292px;
+        margin: 0 48px;
+    }
+}
