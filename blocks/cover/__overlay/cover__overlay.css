@@ -1,8 +1,9 @@
 .cover__overlay {
     width: 1184px;
     min-height: 740px;
-    border: pink solid 4px;
+    border: #2A2C2F solid 4px;
     background-color: rgba(0, 0, 0, .3);
+    box-sizing: border-box;
 }
 
 .cover__overlay:hover {

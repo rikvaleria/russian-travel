@@ -1,11 +1,12 @@
 .header {
-    border: solid pink 4px;
+   /* border: solid pink 4px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     min-height: 52px;
     width: 1184px;
     padding: 28px 48px 0;
+    margin: auto;
     background-color: #2A2C2F;
-    margin: 0;
+    box-sizing: border-box;
 }
