@@ -10,7 +10,7 @@
         width: 928px;
         min-height: 52px;
         padding: 28px 48px 0;
-        margin: 0;
+        margin: auto;
     }
     .lead{
         width: 928px;
@@ -57,7 +57,7 @@
     .cover {
          width: 1024px;
          min-height: 640px;
-        margin: 0;
+         margin: 0;
     }
     .cover__overlay {
         margin: 0;
@@ -83,7 +83,7 @@
         width: 720px;
         min-height: 52px;
         padding: 28px 24px 0;
-        margin: 0;
+        margin: auto;
     }
     .lead{
         width: 768px;
@@ -111,6 +111,7 @@
         width: 720px;
         min-height: 2700px;
         margin: 88px 24px;
+        box-sizing: border-box;
     }
     .place {
         min-height: 434px;
@@ -150,11 +151,15 @@
         margin: 0;
         width: 768px;
         min-height: 480px;
+        box-sizing: border-box;
+
     }
     .cover__overlay {
         margin: 0;
         width: 768px;
         min-height: 480px;
+        box-sizing: border-box;
+
     }
     .title_place_cover {
         margin: 115px 104px 32px;
@@ -195,16 +200,25 @@
     .header {
         width: 288px;
         min-height: 42px;
-        padding: 16px 16px 48px;
+        padding: 16px 16px 0;
+        margin: auto;
     }
     .header__logo {
         width: 142px;
         height: 42px;
     }
+    .header__lang-link {
+        margin: 0;
+        padding-left: 18px;
+    }
     .lead {
         width: 320px;
         min-height: 406px;
         margin: 0 2px;
+        box-sizing: border-box;
+    }
+    .places {
+        box-sizing: border-box;
     }
     .title_place_lead {
         width: 288px;
