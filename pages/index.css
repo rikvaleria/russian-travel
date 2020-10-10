@@ -50,7 +50,7 @@
         width: 440px;
         height: 440px;
     }
-    .place__left-column {
+    .place__right-column {
         width: 456px;
     }
 
@@ -217,9 +217,6 @@
         margin: 0 2px;
         box-sizing: border-box;
     }
-    .places {
-        box-sizing: border-box;
-    }
     .title_place_lead {
         width: 288px;
         min-height: 88px;
@@ -273,6 +270,7 @@
         width: 320px;
         min-height: 4786px;
         margin: 0;
+        box-sizing: border-box;
     }
     .place {
         display: flex;
