@@ -1,10 +1,14 @@
-.section-title_place_intro {
+.title_place_intro {
     font-size: 54px;
     line-height: 58px;
     max-width: 690px;
-    min-height: 58px;
     margin: 0;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
 @media screen and (min-width: 320px) and (max-width: 559px) {
     .title_place_intro {
         margin: 0;

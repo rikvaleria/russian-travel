@@ -1,6 +1,4 @@
 .footer__link {
-    min-width: 50px;
-    min-height: 18px;
     color: white;
     list-style: none;
     text-decoration-line: none;
@@ -12,11 +10,17 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-
 }
 .footer__link:last-child {
     margin-right: 0;
+    margin-bottom: 0;
 }
+
+.header__lang-link:hover {
+    color: #E5E5E5;
+    opacity: 0.8;
+}
+
 @media screen and (min-width: 320px) and (max-width: 559px) {
     .footer__link {
         font-weight: normal;

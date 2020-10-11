@@ -6,11 +6,9 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    max-height: 22px;
 }
 
 .place__link:hover {
-    color: #E5E5E5;
-
+    color: white;
     opacity: 0.8;
 }

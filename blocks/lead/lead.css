@@ -3,8 +3,7 @@
     flex-direction: column;
     justify-content: center;
     width: 984px;
-    max-height: 1005px;
-    margin: 136px auto 0;
+    margin: 56px auto 0;
 
    /* border: white solid 4px;*/
 }
@@ -12,21 +11,18 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead {
         width: 928px;
-        height: 962px;
         margin: 48px 48px 0;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead {
         width: 768px;
-        min-height: 862px;
         margin: 48px 0 0;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 559px) {
     .lead {
         width: 320px;
-        min-height: 406px;
         margin: 0 2px;
         box-sizing: border-box;
     }

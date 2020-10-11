@@ -5,16 +5,14 @@
     font-size: 76px;
     line-height: 76px;
     /* or 106% */
-
     text-align: center;
-
     max-width: 560px;
-    min-height: 152px;
     margin: 245px auto 32px;
 }
 
 .title_place_cover:hover {
-    opacity: 0.5;
+    opacity: 1;
+    color: white;
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .title_place_cover {
@@ -32,6 +30,5 @@
         line-height: 35px;
         margin: 33px 16px 18px;
         width: 288px;
-        min-height: 70px;
     }
 }

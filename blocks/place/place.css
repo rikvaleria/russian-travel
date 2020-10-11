@@ -3,14 +3,13 @@
     flex-direction: row;
     justify-content: space-between;
     max-width: 984px;
-    max-height: 660px;
     margin-bottom: 80px;
 }
 
 .place:last-child {
     margin-bottom: 0;
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+/*@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
         max-height: 640px;
     }
@@ -19,13 +18,13 @@
     .place {
         min-height: 434px;
     }
-}
+}*/
 @media screen and (min-width: 320px) and (max-width: 559px) {
     .place {
         display: flex;
         flex-direction: column;
         width: 320px;
-        min-height: 965px;
+        /*min-height: 965px;*/
         margin-bottom: 48px;
     }
 }
