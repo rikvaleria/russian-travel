@@ -1,9 +1,12 @@
 .footer__copyright {
-
     width: 186px;
     min-height: 16px;
     color: white;
     margin: 0;
-
     /*border: aqua solid 3px;*/
+}
+@media screen and (min-width: 320px) and (max-width: 559px) {
+    .footer__copyright {
+        padding-top: 16px;
+    }
 }

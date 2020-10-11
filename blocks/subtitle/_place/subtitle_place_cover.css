@@ -15,3 +15,11 @@
 .subtitle_place_cover:hover {
     opacity: 0.5;
 }
+@media screen and (min-width: 320px) and (max-width: 559px) {
+    .subtitle_place_cover {
+        font-size: 14px;
+        line-height: 16px;
+        width: 288px;
+        min-height: 48px;
+    }
+}
