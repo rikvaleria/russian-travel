@@ -1,0 +1,23 @@
+.footer__links {
+    color: white;
+    list-style: none;
+    text-decoration-line: none;
+    margin: 0;
+    margin-right: 18px;
+    /*border: pink solid 3px;*/
+
+    min-width: 54px;
+}
+.footer__links:last-child {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 559px) {
+    .footer__links {
+        padding: 0;
+        margin-bottom: 32px;
+    }
+    .footer__links:last-child {
+        margin-bottom: 0;
+    }
+}

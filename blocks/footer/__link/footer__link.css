@@ -1,23 +1,15 @@
 .footer__link {
-    color: white;
-    list-style: none;
-    text-decoration-line: none;
-    margin: 0;
-    margin-right: 18px;
-    /*border: pink solid 3px;*/
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-}
-.footer__link:last-child {
-    margin-right: 0;
-    margin-bottom: 0;
+    color: white;
+    text-decoration-line: none;
 }
 
-.header__lang-link:hover {
-    color: #E5E5E5;
+.footer__link:hover {
+    color: white;
     opacity: 0.8;
 }
 
@@ -27,6 +19,5 @@
         font-size: 24px;
         line-height: 24px;
         padding: 0;
-        margin-bottom: 32px;
     }
 }

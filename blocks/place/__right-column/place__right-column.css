@@ -1,5 +1,4 @@
 .place__right-column {
-   /* border: beige solid 4px;*/
 }
 
 .place__right-column:last-child {
@@ -19,6 +18,6 @@
 @media screen and (min-width: 320px) and (max-width: 559px) {
     .place__right-column {
         max-width: 320px;
-        margin: 0 16px 24px;
+        margin: 32px 16px 24px;
     }
 }

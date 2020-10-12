@@ -1,6 +1,5 @@
 .header__lang-link {
     color: white;
-    margin-right: 18px;
     padding-bottom: 6px;
     text-decoration-line: none;
     min-width: 30px;
@@ -11,6 +10,7 @@
     line-height: 28px;
     /* identical to box height, or 117% */
     text-align: right;
+    margin-left: 18px;
 }
 
 .header__lang-link:hover {

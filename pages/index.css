@@ -24,7 +24,7 @@
 @import url("../blocks/lead/__image/lead__image.css");
 @import url("../blocks/lead/__caption/lead__caption.css");
 
-@import url("../blocks/size/size.css");
+@import url("../blocks/container/container.css");
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__box-list/intro__box-list.css");
 @import url("../blocks/intro/__list/intro__list.css");
@@ -51,5 +51,6 @@
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__box/footer__box.css");
+@import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
