@@ -2,7 +2,7 @@
     width: 186px;
     color: white;
     margin-bottom: 0;
-    font-family: Inter;
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -11,6 +11,12 @@
 
     text-align: right;
     /*border: aqua solid 3px;*/
+}
+@media screen and (min-width: 560px) and (max-width: 767px) {
+    .footer__copyright {
+        text-align: left;
+        margin-top: 32px;
+    }
 }
 @media screen and (min-width: 320px) and (max-width: 559px) {
     .footer__copyright {

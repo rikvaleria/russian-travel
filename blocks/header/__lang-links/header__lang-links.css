@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+@media screen and (min-width: 560px) and (max-width: 767px) {
+    .header__lang-links {
+        width: 100px;
+    }
+}
 @media screen and (min-width: 320px) and (max-width: 559px) {
     .header__lang-links {
     }
