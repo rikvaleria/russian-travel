@@ -7,3 +7,9 @@
     color: white;
     margin: 0;
 }
+
+@media screen and (min-width: 560px) and (max-width: 767px) {
+    .intro__list {
+        width: 560px;
+    }
+}
